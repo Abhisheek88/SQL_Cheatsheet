@@ -80,13 +80,6 @@ for csv_file, table_name in csv_files:
 # Close the connection
 conn.close()
 
-## Add mysql to your PATH
-
-```bash
-# Current Session
-export PATH=${PATH}:/usr/local/mysql/bin
-# Permanantly
-echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 
 ```
 
