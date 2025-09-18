@@ -3,6 +3,10 @@
 > Help with SQL commands to interact with a MySQL database
 
 ## Python_To_Mysql
+> Help to move .csv files to Mysqlworkbench .
+> with help of Python
+> jo jo .csv file chaheyai usse likhna hai or unka location and database connection krna hai
+```bash
 import pandas as pd
 import mysql.connector
 import os
@@ -83,15 +87,10 @@ conn.close()
 export PATH=${PATH}:/usr/local/mysql/bin
 # Permanantly
 echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
+
 ```
 
-On Windows - https://www.qualitestgroup.com/resources/knowledge-center/how-to-guide/add-mysql-path-windows/
 
-## Login
-
-```bash
-mysql -u root -p
-```
 
 ## Show Users
 
